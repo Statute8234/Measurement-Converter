@@ -29,6 +29,18 @@ The Java Swing application offers a user-friendly interface for selecting measur
 
 # Usage
 
+The code outlines a basic GUI application using Swing in Java, which includes panels for selecting measurements and units, a button for showing results, and a submit button. However, there are several areas where the code could be improved or clarified.
+
+Firstly, the ShowButton class should include an ActionListener that gathers the selected measurement and unit, performs calculations or comparisons, and updates the ShowResult label with the outcome. The Results class should also be completed, as it seems to be intended for calculating or comparing values based on measurements and units.
+
+Secondly, the layout of the main window should be adjusted to align components with the grid layout, as adding components directly to the frame may not align them according to the default layout position. To fix this, consider adding a container JPanel with the GridLayout to the frame and adding components like measurement, unitFrame, showButton, and showResult to this panel.
+
+Thirdly, the dynamic update of the UnitFrame should be well-tested, especially when different measurements are selected. Error handling and user feedback should be added for user inputs and operations that could fail, improving the application's usability.
+
+Lastly, to enhance user interaction, more listeners should be implemented, such as FocusListener for text fields, to provide real-time feedback or assistance.
+
+In conclusion, the design and functionality of the application will evolve as the understanding of user needs and requirements is refined.
+
 # Rating
 
 The application is a modular design that enhances code readability and maintainability by separating components into different classes. It provides an interactive user interface, allowing users to select measurements and units from dropdown menus and enter values for comparison or calculation. The structure of the MeasurementFrame class allows for easy expansion. However, there are areas for improvement, such as unclear user feedback after input submission, lack of explicit error handling, and incomplete implementation of the Results class. These areas could be addressed by implementing input validation and error messages, and completing the Results class to serve its intended function. Despite these shortcomings, the application serves as a solid foundation for a GUI-based measurement conversion or comparison tool.
