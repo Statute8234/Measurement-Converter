@@ -1,10 +1,13 @@
 # Measurement-Converter
-
-[![Static Badge](https://img.shields.io/badge/map-cyan)](https://www.geeksforgeeks.org/map-interface-java-examples/)
-[![Static Badge](https://img.shields.io/badge/swing-magenta)](https://www.geeksforgeeks.org/introduction-to-java-swing/)
-[![Static Badge](https://img.shields.io/badge/hashmap-magenta)](https://www.w3schools.com/java/java_hashmap.asp)
-
 The code initializes Pygame, sets display dimensions, defines functions for color blending and randomization, initializes food and bot groups, handles events, updates, draws sprites, and handles bot reproduction. 
+
+[![Static Badge](https://img.shields.io/badge/javax.swing.*-purple)](https://mvnrepository.com/artifact/javax.swing.*)
+[![Static Badge](https://img.shields.io/badge/javax.swing.border.Border-olive)](https://mvnrepository.com/artifact/javax.swing.border.Border)
+[![Static Badge](https://img.shields.io/badge/java.awt.*-teal)](https://mvnrepository.com/artifact/java.awt.*)
+[![Static Badge](https://img.shields.io/badge/java.awt.event.ActionEvent-silver)](https://mvnrepository.com/artifact/java.awt.event.ActionEvent)
+[![Static Badge](https://img.shields.io/badge/java.awt.event.ActionListener-gray)](https://mvnrepository.com/artifact/java.awt.event.ActionListener)
+[![Static Badge](https://img.shields.io/badge/java.util.HashMap-green)](https://mvnrepository.com/artifact/java.util.HashMap)
+[![Static Badge](https://img.shields.io/badge/java.util.Map-magenta)](https://mvnrepository.com/artifact/java.util.Map)
 
 # Table of Contents
 
